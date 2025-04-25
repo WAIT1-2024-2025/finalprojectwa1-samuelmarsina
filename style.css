@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #d67627;
+    --accent-color: #000000;
+    --text-color: #000000;
+    --hover-transition: all 0.3s ease;
+    --overlay-color: rgba(0, 28, 64, 0.85);
+}
