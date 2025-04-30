@@ -1,3 +1,12 @@
+
+h4{
+    color: var(--primary-color);
+    font-size: 1.65em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
 :root {
     --primary-color: #000000;
     --secondary-color: #d67627;
@@ -5,4 +14,47 @@
     --text-color: #000000;
     --hover-transition: all 0.3s ease;
     --overlay-color: rgba(0, 28, 64, 0.85);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(var(--overlay-color), var(--overlay-color)), 
+                      url('https://staticdelivery.nexusmods.com/images/2600/83813648-1695648361.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.topnav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(228, 113, 20, 0.95), rgba(56, 236, 71, 0.85));
+    padding: 20px;
+    text-align: right;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.leftnav{
+    text-align: left;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 50vh;            
+    margin-top: 40px;
 }
