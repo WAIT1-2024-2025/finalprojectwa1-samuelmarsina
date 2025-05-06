@@ -1,7 +1,14 @@
-
 h4{
-    color: var(--primary-color);
-    font-size: 1.65em;
+    color:white;
+    font-size: 2.0em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+h2{
+    color:white;
+    font-size: 1.55em;
     margin-bottom: 30px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     font-weight: 500;
@@ -34,27 +41,47 @@ body {
 }
 
 .topnav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(228, 113, 20, 0.95), rgba(56, 236, 71, 0.85));
-    padding: 20px;
-    text-align: right;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-    z-index: 100;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;        
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    background-color: #d67627;
+
+    .left, .right {
+        font-size: 18px;
+    }
+}
+.topnav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
 }
 
-.leftnav{
-    text-align: left;
-
+.topnav a:hover {
+    text-decoration: underline;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;  
     align-items: center;      
-    height: 50vh;            
-    margin-top: 40px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+    height: 400px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;           
 }
+
+.sekce {
+    background-color: rgba(255, 255, 255, 0.98);
+    padding: 40px;
+    border-radius: 15px;
+    margin: 30px 0;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+
