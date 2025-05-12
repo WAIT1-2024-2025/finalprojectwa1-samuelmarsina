@@ -50,6 +50,8 @@ body {
 }
 
 .topnav {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between; 
     align-items: center;        
@@ -58,6 +60,7 @@ body {
     color: white;
     background: linear-gradient(to right, rgb(255, 123, 0), green);
     padding: 1rem;
+    z-index: 1000;
 
     .left, .right {
         font-size: 18px;
@@ -90,18 +93,16 @@ body {
     align-items: center;      
     margin-top: 65px;
     margin-bottom: 45px;
-    height: 400px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;           
+    height: 400px;  
 }
 
 .banner {
-    align-items: right; 
-    margin-left: 10px;
-    width: 100px;
+    display: inline-block;
+    justify-content: right;  
+    align-items: right;      
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
-
 .sekce {
     background-color: rgba(27, 130, 161, 0.85);
     padding: 40px;
