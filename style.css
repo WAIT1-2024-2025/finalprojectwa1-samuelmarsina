@@ -96,13 +96,32 @@ body {
     height: 400px;  
 }
 
-.banner {
-    display: inline-block;
-    justify-content: right;  
-    align-items: right;      
-    margin-top: 25px;
-    margin-bottom: 25px;
+.banner{
+    display: block;
+    background-color: black;
+    margin: 20px auto;
+    width: 470px;
+    height: fit-content;
+    border-radius: 5px;
 }
+
+.banner-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.banner-item{
+    height: 100px;
+    width: 100%;
+    object-fit: fill;
+    display: block;
+    margin: 0 auto;
+}
+
+
 .sekce {
     background-color: rgba(27, 130, 161, 0.85);
     padding: 40px;
@@ -114,24 +133,15 @@ body {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
 }
 
-.footer {
-    background-color: rgba(27, 130, 161, 0.85);
-    padding: 40px;
-    border-radius: 15px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-}
-
 .malasekce {
     background-color: rgba(27, 130, 161, 0.85);
     padding: 40px;
     border-radius: 15px;
     margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-bottom: 10px;
+    margin-left: 470px;
+    margin-right: 470px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 80px;
 }
