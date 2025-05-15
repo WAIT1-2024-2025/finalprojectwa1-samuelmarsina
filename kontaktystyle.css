@@ -154,16 +154,35 @@ body {
     height: 80px;
 }
 
+.obojosekce{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+}
+
 .levasekce {
     background-color: rgba(27, 130, 161, 0.85);
     padding: 40px;
     border-radius: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 0;
     margin-left: 200px;
-    margin-right: 1000px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 650px;
 }
+
+.levasekce h2{
+    margin-right: 20px;
+    margin-left: -30px;
+}
+
+.levasekce h5{
+    margin-left: 21px;
+}
+
 
 .pravasekce {
     background-color: rgba(27, 130, 161, 0.85);
@@ -171,7 +190,18 @@ body {
     border-radius: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 1000px;
+    margin-left: 0;
     margin-right: 200px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 650px;
+}
+
+.pravasekce h2{
+    margin-right: 20px;
+    margin-left: -30px;
+}
+
+.pravasekce h5{
+    margin-left: 21px;
 }
