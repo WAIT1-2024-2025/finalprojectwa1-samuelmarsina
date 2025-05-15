@@ -1,0 +1,147 @@
+h4{
+    color:whitesmoke;
+    font-size: 1.25em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+h2{
+    color:whitesmoke;
+    font-size: 1.70em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+h6{
+    color:whitesmoke;
+    font-size: 0.85em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #d67627;
+    --accent-color: #000000;
+    --text-color: #000000;
+    --hover-transition: all 0.3s ease;
+    --overlay-color: rgba(0, 28, 64, 0.85);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(var(--overlay-color), var(--overlay-color)), 
+                      url('https://staticdelivery.nexusmods.com/images/2600/83813648-1695648361.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.topnav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;        
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    background: linear-gradient(to right, rgb(255, 123, 0), green);
+    padding: 1rem;
+    z-index: 1000;
+
+    .left, .right {
+        font-size: 18px;
+    }
+}
+
+.topnav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav a {
+    color: white;
+    margin-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    margin-top: 65px;
+    margin-bottom: 45px;
+    height: 400px;  
+}
+
+.banner{
+    display: block;
+    background-color: black;
+    margin: 20px auto;
+    width: 470px;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.banner-item{
+    height: 100px;
+    width: 100%;
+    object-fit: fill;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.sekce {
+    background-color: rgba(27, 130, 161, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 280px;
+    margin-right: 280px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.malasekce {
+    background-color: rgba(27, 130, 161, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 470px;
+    margin-right: 470px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 80px;
+}
