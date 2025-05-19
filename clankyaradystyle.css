@@ -146,20 +146,13 @@ body {
     height: 80px;
 }
 
-.strednevetsisekce{
+.strednisekce {
     background-color: rgba(27, 130, 161, 0.85);
     padding: 40px;
     border-radius: 15px;
     margin-top: 30px;
     margin-bottom: 10px;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 470px;
+    margin-right: 470px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.video {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
 }
