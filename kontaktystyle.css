@@ -30,6 +30,15 @@ h6{
     font-weight: 500;
 }
 
+h3{
+    color:whitesmoke;
+    font-size: 1.70em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    text-align: center;
+}
+
 
 :root {
     --primary-color: #000000;
@@ -214,3 +223,41 @@ body {
     margin-top: 35px;
     margin-bottom: 10px;
 }
+
+.formular {
+    max-width: 500px;
+    margin: auto;
+    background-color: rgba(27, 130, 161, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.form label {
+    display: block;
+    margin-top: 15px;
+}
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background-color: #0056b3;
+  }
